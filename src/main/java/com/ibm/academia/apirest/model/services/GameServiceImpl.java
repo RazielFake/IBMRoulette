@@ -43,7 +43,11 @@ public class GameServiceImpl implements IGameService{
 						bet.setIsWinner(true);
 						bet.setReward(bet.getAmount()*2);
 						this.betService.save(bet);
-					}
+					}else if((bet.getRouletteColor() == this.findColor(numberWinner)) && (bet.getRouletteNumber() == numberWinner)) {
+						bet.setIsWinner(true);
+						bet.setReward(bet.getAmount()*72);
+						this.betService.save(bet);
+					};
 				});
 	}
 	

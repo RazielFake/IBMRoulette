@@ -2,5 +2,6 @@ package com.ibm.academia.apirest.enums;
 
 public enum Color {
 	RED,
-	BLACK
+	BLACK,
+	GREEN
 }

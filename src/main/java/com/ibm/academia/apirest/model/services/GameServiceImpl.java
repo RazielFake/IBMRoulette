@@ -49,6 +49,7 @@ public class GameServiceImpl implements IGameService{
 	
 	public Color findColor(Integer winner) {
 		return switch(winner){
+		case 0 -> Color.GREEN;
 		case 1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36 -> Color.RED;
 		case 2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35-> Color.BLACK;
 		default -> null;

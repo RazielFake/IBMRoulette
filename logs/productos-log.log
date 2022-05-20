@@ -1,0 +1,4 @@
+2022-05-18 18:07:30,196 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting RestRouletteApplication using Java 17.0.2 on DESKTOP-T9AQFTG with PID 11332 (C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestRoulette\target\classes started by bpinedai1500 in C:\Users\bpinedai1500\Documents\workspace-spring-tool-suite-4-4.14.1.RELEASE\RestRoulette)
+2022-05-18 18:07:30,200 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-05-18 18:07:31,008 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-18 18:07:31,066 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.

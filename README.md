@@ -18,7 +18,7 @@ Como requerimientos mínimos el proyecto deberá tener los siguientes Endpoints.
 
 
 > Apuestas
->> Endpoint para la creacion de apuestas por un máximo de $10,000. Ya sea por numero o por color: rojo, negro o verde.
+>> Endpoint para la creacion de apuestas por un mínimo de $100 y un máximo de $10,000. Las apuestas pueden realizarse ya sea por numero o por color: rojo, negro o verde.
 
-
+Adicionalmente se creó una entidad extra, con el nombre de "Player" la cual permite agregar un jugador por nombre y asociar apuestas a dicho jugador.
 
